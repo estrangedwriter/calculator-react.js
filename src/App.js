@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   reset = () => {
-    this.setState({result: '0', previous: [], nextIsReset: false});
+    this.setState({result: '0', previous: [], nextIsReset: true});
 
   }
 
